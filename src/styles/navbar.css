@@ -1,0 +1,42 @@
+
+.navbbar {
+  z-index: 999999999;
+  position: fixed;
+  top: 0;
+  background-color: rgb(172, 169, 172);
+  color: rgb(0, 0, 0);
+
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 10px 30px;
+  width: 100%;
+}
+.navbbar h1 {
+  font-family: "Cairo Play", cursive;
+}
+
+
+input {
+  width: 250px;
+  height: 40px;
+  background-color: rgb(207, 203, 203);
+  margin-left: 50px;
+
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10%;
+}
+.navbbar .menu{
+    display: flex;
+    gap: 50px;
+}
+.navbbar a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+}
+
+.navbbar a:hover{
+    background-color: grey;
+}
